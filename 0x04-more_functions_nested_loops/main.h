@@ -13,4 +13,7 @@ void print_diagonal(int o);
 void print_square(int size);
 void print_triangle(int size);
 
+
+
+
 #endif
