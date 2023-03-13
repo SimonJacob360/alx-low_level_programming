@@ -9,10 +9,10 @@
 #include <string.h>
 
 
-int _isupper(int c)
+void _puts(char *s)
 
 {
 
-    return (c >= 'A' && c <= 'Z');
+    puts(s);
 
 }

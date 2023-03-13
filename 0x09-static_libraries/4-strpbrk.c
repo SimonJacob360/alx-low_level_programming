@@ -9,10 +9,10 @@
 #include <string.h>
 
 
-int _isupper(int c)
+char *_strpbrk(char *s, char *accept)
 
 {
 
-    return (c >= 'A' && c <= 'Z');
+    return strpbrk(s, accept);
 
 }

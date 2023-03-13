@@ -8,11 +8,11 @@
 
 #include <string.h>
 
+int _atoi(char *s)
 
-int _isupper(int c)
 
 {
 
-    return (c >= 'A' && c <= 'Z');
+    return atoi(s);
 
 }

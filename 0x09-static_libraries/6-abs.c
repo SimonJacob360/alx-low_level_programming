@@ -9,10 +9,10 @@
 #include <string.h>
 
 
-int _isupper(int c)
+int _abs(int n)
 
 {
 
-    return (c >= 'A' && c <= 'Z');
+    return abs(n);
 
 }
